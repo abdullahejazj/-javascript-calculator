@@ -1,2 +1,3 @@
 # -javascript-calculator
 simple one page java script calculator
+This is javascript calculator just in one file of html no complex code very easy to understand....
