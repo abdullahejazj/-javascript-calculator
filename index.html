@@ -1,23 +1,35 @@
 <html>
 <head>
 <style>
-
 body {
     background-color: linen;
 }
 input {
-padding: 12px;
-
+padding: 20px;
+font-size: 25px;
+color: red;
+background: rgb(64, 193, 169);
+margin: 20px;
+}
+input:hover{
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.wrapper{
+  margin: 0px 35%;
+  background-image: url(http://www.coloringyard.com/wp-content/uploads/2016/07/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg);
+overflow: hidden;
 }
 </style>
 
 </head>
 <body>
+  <div class="wrapper">
+
 <div class="style">
 <form name="calculator">
-<input rel="stylesheet" type="text/css" name="answer"> 
+<input type="text/css" name="answer">
 <br />
-
 <input type="button" value="1" onclick="calculator.answer.value += '1' ">
 <input type="button" value="2" onclick="calculator.answer.value += '2' ">
 <input type="button" value="3" onclick="calculator.answer.value += '3' ">
@@ -45,6 +57,8 @@ padding: 12px;
 
 
 </form>
+
+</div>
 </div>
 </body>
 </html>
